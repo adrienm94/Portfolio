@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="./styles.css">
     <!-- Load external JavaScript -->
     <script src="https://kit.fontawesome.com/e6b5bf2a6a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./scripts.js" defer></script>
 </head>
 
-<body class="text-white bg-black">
-    <header class="container-fluid py-4 mb-4 position-sticky top-0 bg-dark bg-gradient border-bottom border-white">
+<body class="text-white" onload="scrollReveal()">
+    <header class="container-fluid py-2 mb-4 position-sticky top-0 bg-dark bg-gradient border-bottom border-white">
         <nav class="container container-fluid d-flex justify-content-between gap-5 py-1" aria-label="nav-header">
-            <a href="#about-me" title="about-me"><i class="fa-solid fa-info fa-2xl text-white"></i></a>
-            <a href="#projects" title="projects"><i class="fa-solid fa-suitcase fa-2xl text-white"></i></a>
-            <a href="#contact" title="contact"><i class="fa-solid fa-address-book fa-2xl text-white"></i></a>
+            <a href="#" title="ACCUEIL"><i class="fa-solid fa-house fa-2xl text-white"></i></a>
+            <a href="#about-me" title="À PROPOS DE MOI"><i class="fa-solid fa-info fa-2xl text-white"></i></a>
+            <a href="#projects" title="PROJETS"><i class="fa-solid fa-suitcase fa-2xl text-white"></i></a>
+            <a href="#contact" title="CONTACT"><i class="fa-solid fa-address-book fa-2xl text-white"></i></a>
         </nav>
         <!-- <nav>
             <a href="#about-me" title="about-me">À PROPOS DE MOI</a>
@@ -30,18 +32,20 @@
     </header>
 
     <main class="container-fluid">
-        <section class="horizontal-bar d-flex justify-content-center">
+        <section class="horizontal-bar d-flex justify-content-center s-left">
             <hr class="w-50">
         </section>
-        <section id="hero" class="container-fluid text-center py-5 my-5">
+        <section id="hero" class="container-fluid bg-dark  text-center py-5 my-5 s-left">
             <h1 class="my-5">ADRIEN MEYRAND</h1>
             <h3 class="my-5"><em>DÉVELOPPEUR FULLSTACK WEB</em></h3>
-            <a href="#" class="text-decoration-none text-white btn btn-primary bg-gradient"><strong>Visualiser mon CV</strong></a>
+            <a href="#" class="text-decoration-none text-white btn btn-primary bg-gradient"
+                title="CV"><strong>Visualiser mon CV</strong></a>
         </section>
-        <section class="horizontal-bar d-flex justify-content-center">
+        <section class="horizontal-bar d-flex justify-content-center s-left">
             <hr class="w-50">
         </section>
-        <section id="about-me" class="container container-fluid bg-dark bg-opacity-50 text-center py-5 my-5 border border-dark rounded">
+        <section id="about-me"
+            class="container container-fluid bg-dark  text-center py-5 my-5 border border-dark rounded s-right">
             <h1 class="pb-4">À PROPOS DE MOI</h1>
             <p class="pb-4">Ayant un intérêt particulier pour la technologie et l'informatique, j'ai choisi de prendre
                 la voie du développement web fullstack et confirmer ainsi mon projet professionnel. Titulaire d'un
@@ -53,7 +57,7 @@
                 service aux utilisateurs en leur proposant des applications fonctionnelles et utiles, tout en pratiquant
                 une veille technologique assurant une certaine qualité.</p>
         </section>
-        <section id="hard-skills" class="container container-fluid">
+        <section id="hard-skills" class="container container-fluid s-bottom">
             <p class="d-flex flex-wrap gap-1 justify-content-between border-bottom border-top border-light py-4">
                 <i class="fa-brands fa-html5 fa-3x"></i>
                 <i class="fa-brands fa-css fa-3x"></i>
@@ -64,9 +68,11 @@
                 <i class="fa-solid fa-database fa-3x"></i>
             </p>
         </section>
-        <section id="projects" class="container container-fluid bg-dark bg-opacity-50 py-5 my-5 border border-dark rounded">
+        <section id="projects"
+            class="container container-fluid bg-dark py-5 my-5 border border-dark rounded s-left">
             <h1 class="pb-4 text-center">PROJETS</h1>
-            <section class="project container container-fluid bg-dark bg-opacity-75 pb-4 py-4 border border-dark rounded">
+            <section
+                class="project container container-fluid bg-black pb-4 py-4 border border-dark rounded">
                 <h3 class="project-title pb-4 text-center">MIGRATION D'UNE APPLICATION EXISTANTE DE SUIVI D'ACTIVITÉ
                 </h3>
                 <ul class="project-details-list pb-4 fa-ul">
@@ -133,25 +139,29 @@
                 </p>
             </section> -->
         </section>
-        <section class="horizontal-bar d-flex justify-content-center">
+        <section class="horizontal-bar d-flex justify-content-center s-left">
             <hr class="w-50">
         </section>
-        <section id="contact" class="container container-fluid bg-dark bg-opacity-50 py-5 my-5 border border-dark rounded">
+        <section id="contact"
+            class="container container-fluid bg-dark  py-5 my-5 border border-dark rounded s-right">
             <h1 class="pb-4 text-center">CONTACT</h1>
             <p class="location d-flex justify-content-center align-items-center gap-2">
                 <i class="fa-solid fa-location-dot fa-2xl text-white"></i><strong>Montpellier, Occitanie</strong></a>
             </p>
             <nav id="contact-items" class="d-flex flex-column gap-3 align-items-center" aria-label="nav-contact">
-                <a href="mailto:adrien.meyrand@gmail.com" title="mail"><i
-                            class="fa-solid fa-envelope fa-3x text-white"></i></a>
-                <a href="https://github.com/adrienm94" title="github"><i class="fa-brands fa-github fa-3x text-white"></i></a>
-                <a href="https://fr.linkedin.com/in/adrien-meyrand" title="linkedin"><i
-                            class="fa-brands fa-linkedin fa-3x text-white"></i></a>
+                <a href="mailto:adrien.meyrand@gmail.com" title="mailto:adrien.meyrand@gmail.com"><i
+                        class="fa-solid fa-envelope fa-3x text-white"></i></a>
+                <a href="https://github.com/adrienm94" title="https://github.com/adrienm94"><i
+                        class="fa-brands fa-github fa-3x text-white"></i></a>
+                <a href="https://fr.linkedin.com/in/adrien-meyrand" title="https://fr.linkedin.com/in/adrien-meyrand"><i
+                        class="fa-brands fa-linkedin fa-3x text-white"></i></a>
             </nav>
         </section>
     </main>
     <footer class="container-fluid bg-dark bg-gradient py-4">
-        <p class="text-center"><i class="fa-solid fa-arrow-up fa-beat fa-3x"></i></p>
+        <p class="text-center"><a href="#" id="upArrowToTop" class="btn"
+                title="Retourner en haut de la page" onClick="goToTop()"><i
+                    class="fa-solid fa-arrow-up fa-beat fa-3x text-white"></i></a></p>
         <p class="text-center">&copy; 2024 - Fait avec motivation par Adrien MEYRAND - Tous droits réservés</p>
     </footer>
 

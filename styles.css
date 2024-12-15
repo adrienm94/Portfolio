@@ -2,6 +2,11 @@
     font-family: "Roboto", serif;
 }
 
+body {
+    background-image: url("./images/body-background-image.jpg");
+    background-repeat: repeat;
+}
+
 header {
     z-index: 1000;
 }
