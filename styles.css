@@ -5,6 +5,7 @@
 body {
     background-image: url("./images/body-background-image.jpg");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 header {
