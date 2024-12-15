@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrien MEYRAND - Portfolio</title>
+    <!-- Load external CSS styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Load external JavaScript -->
+    <script src="https://kit.fontawesome.com/e6b5bf2a6a.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js" defer></script>
+</head>
+
+<body class="text-white bg-black">
+    <header class="container-fluid py-4 mb-4 position-sticky top-0 bg-dark bg-gradient border-bottom border-white">
+        <nav class="container container-fluid d-flex justify-content-between gap-5 py-1" aria-label="nav-header">
+            <a href="#about-me" title="about-me"><i class="fa-solid fa-info fa-2xl text-white"></i></a>
+            <a href="#projects" title="projects"><i class="fa-solid fa-suitcase fa-2xl text-white"></i></a>
+            <a href="#contact" title="contact"><i class="fa-solid fa-address-book fa-2xl text-white"></i></a>
+        </nav>
+        <!-- <nav>
+            <a href="#about-me" title="about-me">À PROPOS DE MOI</a>
+            <a href="#projects" title="projects">PROJETS</a>
+            <a href="#contact" title="contact">CONTACT</a>
+        </nav> -->
+    </header>
+
+    <main class="container-fluid">
+        <section class="horizontal-bar d-flex justify-content-center">
+            <hr class="w-50">
+        </section>
+        <section id="hero" class="container-fluid text-center py-5 my-5">
+            <h1 class="my-5">ADRIEN MEYRAND</h1>
+            <h3 class="my-5"><em>DÉVELOPPEUR FULLSTACK WEB</em></h3>
+            <a href="#" class="text-decoration-none text-white btn btn-primary bg-gradient"><strong>Visualiser mon CV</strong></a>
+        </section>
+        <section class="horizontal-bar d-flex justify-content-center">
+            <hr class="w-50">
+        </section>
+        <section id="about-me" class="container container-fluid bg-dark bg-opacity-50 text-center py-5 my-5 border border-dark rounded">
+            <h1 class="pb-4">À PROPOS DE MOI</h1>
+            <p class="pb-4">Ayant un intérêt particulier pour la technologie et l'informatique, j'ai choisi de prendre
+                la voie du développement web fullstack et confirmer ainsi mon projet professionnel. Titulaire d'un
+                master informatique parcours Intégration de Compétences, obtenu à l'université de Montpellier, j'ai eu
+                l'occasion d'alimenter ma soif de connaissances lors de mon passage dans l'entreprise TALARON Services
+                pendant 5 mois. Cette expérience professonnelle m'a fait gagner en rigueur, améliorer ma communication,
+                travailler en équipe et gagner en autonomie.</p>
+            <p class="pb-4">J'ai la volonté de transformer l'essai vers une carrière enrichissante. Je souhaite rendre
+                service aux utilisateurs en leur proposant des applications fonctionnelles et utiles, tout en pratiquant
+                une veille technologique assurant une certaine qualité.</p>
+        </section>
+        <section id="hard-skills" class="container container-fluid">
+            <p class="d-flex flex-wrap gap-1 justify-content-between border-bottom border-top border-light py-4">
+                <i class="fa-brands fa-html5 fa-3x"></i>
+                <i class="fa-brands fa-css fa-3x"></i>
+                <i class="fa-brands fa-js fa-3x "></i>
+                <i class="fa-brands fa-php fa-3x"></i>
+                <i class="fa-brands fa-java fa-3x"></i>
+                <i class="fa-brands fa-git-alt fa-3x"></i>
+                <i class="fa-solid fa-database fa-3x"></i>
+            </p>
+        </section>
+        <section id="projects" class="container container-fluid bg-dark bg-opacity-50 py-5 my-5 border border-dark rounded">
+            <h1 class="pb-4 text-center">PROJETS</h1>
+            <section class="project container container-fluid bg-dark bg-opacity-75 pb-4 py-4 border border-dark rounded">
+                <h3 class="project-title pb-4 text-center">MIGRATION D'UNE APPLICATION EXISTANTE DE SUIVI D'ACTIVITÉ
+                </h3>
+                <ul class="project-details-list pb-4 fa-ul">
+                    <li><span class="fa-li"><i class="fa-regular fa-square-caret-right"></i></span>Validation du cahier
+                        des charges avec récolte des besoins des utilisateurs</li>
+                    <li><span class="fa-li"><i class="fa-regular fa-square-caret-right"></i></span>Conception : modèle
+                        de base de données rédigé et détaillé avec diagrammes <strong>UML</strong>
+                    </li>
+                    <li><span class="fa-li"><i class="fa-regular fa-square-caret-right"></i></span>Implémentation de
+                        l'application dans le cadre du <strong>développement full-stack</strong> :
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-solid fa-caret-right"></i></span>Développement du
+                                back-end en <strong>Java</strong> avec le framework <strong>Spring Boot</strong></li>
+                            <li><span class="fa-li"><i class="fa-solid fa-caret-right"></i></span>Création de la base de
+                                données avec des requêtes<strong>SQL</strong></li>
+                            <li><span class="fa-li"><i class="fa-solid fa-caret-right"></i></span>Développement du
+                                front-end avec le framework <strong>Angular (langages TypeScript, HTML et CSS)</strong>
+                            </li>
+                            <li><span class="fa-li"><i class="fa-solid fa-caret-right"></i></span>Respect de maquettes
+                                créées avec le logiciel <strong>Figma</strong> pour développer les pages web</li>
+                        </ul>
+                    </li>
+                    <li><span class="fa-li"><i class="fa-regular fa-square-caret-right"></i></i></span>Points réguliers
+                        sur l'état d'avancement des tâches avec le tuteur.</li>
+                    <li><span class="fa-li"><i class="fa-regular fa-square-caret-right"></i></i></span>Suivi des
+                        modifications de code avec <strong>Github</strong> et <strong>Git</strong></li>
+                </ul>
+                <figure class="figure">
+                    <img class="project-showcase figure-img img-fluid rounded"
+                        src="./images/project-showcase-talaron.png" alt="project-showcase">
+                    <figcaption class="figure-caption text-white text-center">Maquette de départ de l'application web
+                    </figcaption>
+                </figure>
+            </section>
+            <!-- <section class="project">
+                <img class="project-showcase" src="#" alt="project-showcase">
+                <h3 class="project-title">IMPLÉMENTATION D'UN MINI-MOTEUR DE REQUÊTES EN ÉTOILE</h3>
+                <ul class="project-details-list">
+                    <li>Implémentation de l'approche Hexastore avec le langage <strong>Java</strong>. Interrogation de
+                        données <strong>RDF</strong> (Ressource document Framework) en <strong>SPARQL</strong> et
+                        évaluation de requêtes en étoiles avec le framework <strong>Apache Jena</strong>.</li>
+                    <li>Évaluation et analyse des performances du mini-moteur.</li>
+                </ul>
+            </section>
+            <section class="project">
+                <img class="project-showcase" src="#" alt="project-showcase">
+                <h3 class="project-title">APPLICATION MOBILE POUR E-COMMERCE</h3>
+                <p class="project-details-paragraph"><strong>Développement en Java d'une application mobile sous le
+                        logiciel Android Studio</strong> ayant pour objectif d'offrir une interface pour commander des
+                    produits. Les produits sont déposés/publiés sur l'application par des gestionnaires. Ces produits
+                    sont visibles par les clients de cette place de marché. Deux interfaces différentes sont conçues :
+                    une pour les fournisseurs et une pour les clients.</p>
+            </section>
+            <section class="project">
+                <img class="project-showcase" src="#" alt="project-showcase">
+                <h3 class="project-title">DÉVELOPPEMENT D'UNE APPLICATION WEB DE DESCRIPTION DE MONUMENTS</h3>
+                <p class="project-details-paragraph">Développée sous <strong>Jakarta EE (Java EE)</strong> et à l'aide
+                    du framework <strong>Java Spring Boot</strong>, l'application décrit des monuments localisés dans
+                    des communes. Sa conception est basée sur le patron d'architecture MVC (Model-View-Controller).Il a
+                    fallu gérer les aspects suivants :
+                <ul class="project-details-list">
+                    <li>Persistance des données <strong>(Jakarta Persistence API)</strong></li>
+                </ul>
+                </p>
+            </section> -->
+        </section>
+        <section class="horizontal-bar d-flex justify-content-center">
+            <hr class="w-50">
+        </section>
+        <section id="contact" class="container container-fluid bg-dark bg-opacity-50 py-5 my-5 border border-dark rounded">
+            <h1 class="pb-4 text-center">CONTACT</h1>
+            <p class="location d-flex justify-content-center align-items-center gap-2">
+                <i class="fa-solid fa-location-dot fa-2xl text-white"></i><strong>Montpellier, Occitanie</strong></a>
+            </p>
+            <nav id="contact-items" class="d-flex flex-column gap-3 align-items-center" aria-label="nav-contact">
+                <a href="mailto:adrien.meyrand@gmail.com" title="mail"><i
+                            class="fa-solid fa-envelope fa-3x text-white"></i></a>
+                <a href="https://github.com/adrienm94" title="github"><i class="fa-brands fa-github fa-3x text-white"></i></a>
+                <a href="https://fr.linkedin.com/in/adrien-meyrand" title="linkedin"><i
+                            class="fa-brands fa-linkedin fa-3x text-white"></i></a>
+            </nav>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark bg-gradient py-4">
+        <p class="text-center"><i class="fa-solid fa-arrow-up fa-beat fa-3x"></i></p>
+        <p class="text-center">&copy; 2024 - Fait avec motivation par Adrien MEYRAND - Tous droits réservés</p>
+    </footer>
+
+</body>
+
+</html>
